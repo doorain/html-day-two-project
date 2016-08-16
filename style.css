@@ -1,0 +1,75 @@
+body {
+  width: 100%;
+  height: 100vh;
+ /*background-image: url(https://2.bp.blogspot.com/-dmCxxJQyKfQ/V7N7MppuySI/AAAAAAAABRg/NpEMkfAoREY5TdZHZ32omRCktJK_TijlACLcB/s1600/sunSet%2Bover%2BnewPort1.jpg);*/
+ /*background-size: cover;*/
+}
+.pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  opacity: .9;
+  z-index: 0;
+}
+.header .first {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+
+  z-index: 1;
+}
+.header .second {
+  position: fixed;
+  top: 10%;
+  left: 90%;
+  z-index: 1;
+}
+.main {
+
+  /*position: relative;*/
+
+
+}
+.main .main-inner {
+  min-width: 1000px;
+  position: absolute;
+  top: 20%;
+  transform: translateY(-50%);
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+}
+
+.text .quote {
+  text-shadow: 5px 5px #ccc;
+  font-size: 100px;
+  text-align: center;
+  color: black;
+  font-family: times;
+  font-weight:bold;
+  }
+
+.line {
+  width: 40%;
+  margin: 0 auto;
+  border-bottom: 2px solid white;
+  border-width: medium;
+
+}
+
+.text .quote2 {
+  text-shadow: 1px 1px #ccc;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  font-family: times;
+  font-weight:bold;
+}
+.main-inner .third {
+  
+}
